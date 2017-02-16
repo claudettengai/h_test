@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		301024941E55093B006BE256 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 301024931E55093B006BE256 /* Storyboard.storyboard */; };
 		306F5FA01E53AAC000B880A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306F5F9F1E53AAC000B880A1 /* AppDelegate.swift */; };
 		306F5FA21E53AAC000B880A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306F5FA11E53AAC000B880A1 /* ViewController.swift */; };
 		306F5FA51E53AAC000B880A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 306F5FA31E53AAC000B880A1 /* Main.storyboard */; };
@@ -50,11 +49,9 @@
 		30A784C41E53D7C000DDA6BE /* TransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A784A71E53D7C000DDA6BE /* TransitionManager.swift */; };
 		30A784C51E53D7C000DDA6BE /* TransitionZoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A784A81E53D7C000DDA6BE /* TransitionZoom.swift */; };
 		30A784C61E53D7C000DDA6BE /* UnwindSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A784A91E53D7C000DDA6BE /* UnwindSegue.swift */; };
-		30A784C81E54083A00DDA6BE /* profile.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 30A784C71E54083A00DDA6BE /* profile.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		301024931E55093B006BE256 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		306F5F9C1E53AAC000B880A1 /* my_hundy_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = my_hundy_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		306F5F9F1E53AAC000B880A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		306F5FA11E53AAC000B880A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,7 +97,6 @@
 		30A784A71E53D7C000DDA6BE /* TransitionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionManager.swift; sourceTree = "<group>"; };
 		30A784A81E53D7C000DDA6BE /* TransitionZoom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionZoom.swift; sourceTree = "<group>"; };
 		30A784A91E53D7C000DDA6BE /* UnwindSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnwindSegue.swift; sourceTree = "<group>"; };
-		30A784C71E54083A00DDA6BE /* profile.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = profile.pdf; path = ../../profile.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,7 +114,6 @@
 			isa = PBXGroup;
 			children = (
 				306F5FA31E53AAC000B880A1 /* Main.storyboard */,
-				301024931E55093B006BE256 /* Storyboard.storyboard */,
 				30A784891E53BD7C00DDA6BE /* icons */,
 				30A784861E53BA9A00DDA6BE /* images */,
 				30A784831E53B9A700DDA6BE /* Fonts */,
@@ -141,7 +136,6 @@
 				30A7848B1E53D7C000DDA6BE /* Spring */,
 				306F5F9F1E53AAC000B880A1 /* AppDelegate.swift */,
 				306F5FA11E53AAC000B880A1 /* ViewController.swift */,
-				30A784C71E54083A00DDA6BE /* profile.pdf */,
 				306F5FA91E53AAC000B880A1 /* Assets.xcassets */,
 				306F5FAB1E53AAC000B880A1 /* LaunchScreen.storyboard */,
 				306F5FAE1E53AAC000B880A1 /* Info.plist */,
@@ -281,14 +275,12 @@
 				306F5FB91E53B2B900B880A1 /* HVD Fonts - BrandonText-Medium.otf in Resources */,
 				306F5FBD1E53B2B900B880A1 /* HVD Fonts - BrandonText-Regular.otf in Resources */,
 				306F5FAA1E53AAC000B880A1 /* Assets.xcassets in Resources */,
-				301024941E55093B006BE256 /* Storyboard.storyboard in Resources */,
 				306F5FA51E53AAC000B880A1 /* Main.storyboard in Resources */,
 				30A784851E53BA9300DDA6BE /* 01_onboarding_test_screen01.png in Resources */,
 				306F5FBB1E53B2B900B880A1 /* HVD Fonts - BrandonText-Light.otf in Resources */,
 				30A784B61E53D7C000DDA6BE /* Info.plist in Resources */,
 				30A784B91E53D7C000DDA6BE /* LoadingView.xib in Resources */,
 				306F5FBC1E53B2B900B880A1 /* HVD Fonts - BrandonText-LightItalic.otf in Resources */,
-				30A784C81E54083A00DDA6BE /* profile.pdf in Resources */,
 				30A784881E53BD5900DDA6BE /* onboarding_icon_01@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
