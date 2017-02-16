@@ -1,0 +1,29 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "F6C16163B89E61539122B049575A383CF6A58034" : 9223372036854775807,
+    "1AED56F5B94BE9D0A897C599CE09D4DC11FF1D53" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D63DDF22-2919-4966-9123-E061A7C16787",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "F6C16163B89E61539122B049575A383CF6A58034" : "Rahul\/hundyios_new\/",
+    "1AED56F5B94BE9D0A897C599CE09D4DC11FF1D53" : "6-DesigningInStoryboard\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "my_hundy_test",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "my_hundy_test.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/MengTo\/DNApp-Swift.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1AED56F5B94BE9D0A897C599CE09D4DC11FF1D53"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "bitbucket.org:rahul_singh29\/hundyios_new.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F6C16163B89E61539122B049575A383CF6A58034"
+    }
+  ]
+}
