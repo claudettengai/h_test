@@ -35,7 +35,7 @@
                                 <rect key="frame" x="0.0" y="80" width="375" height="44"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create Your Account" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7iQ-LF-WyL">
-                                        <rect key="frame" x="97" y="7.5" width="181" height="29"/>
+                                        <rect key="frame" x="98" y="7.5" width="180.5" height="29"/>
                                         <fontDescription key="fontDescription" name="BrandonText-Light" family="Brandon Text" pointSize="20"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -63,9 +63,6 @@
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="progress_bar" translatesAutoresizingMaskIntoConstraints="NO" id="EO0-y2-7eb">
-                                        <rect key="frame" x="66" y="35" width="82" height="26"/>
-                                    </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pL9-9V-0xc">
                                         <rect key="frame" x="13" y="63" width="28" height="16"/>
                                         <fontDescription key="fontDescription" name="BrandonText-Light" family="Brandon Text" pointSize="11"/>
@@ -73,34 +70,54 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="120" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9lQ-TK-21d">
-                                        <rect key="frame" x="287" y="30" width="47" height="43"/>
+                                        <rect key="frame" x="291" y="30" width="46.5" height="43"/>
                                         <fontDescription key="fontDescription" name="BrandonText-Light" family="Brandon Text" pointSize="30"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hundy Coins" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kxc-fG-9oE">
-                                        <rect key="frame" x="292" y="63" width="61" height="16"/>
+                                        <rect key="frame" x="296" y="63" width="60.5" height="16"/>
                                         <fontDescription key="fontDescription" name="BrandonText-Light" family="Brandon Text" pointSize="11"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="coin" translatesAutoresizingMaskIntoConstraints="NO" id="wYn-z9-ECV">
-                                        <rect key="frame" x="250" y="35" width="31" height="31"/>
+                                        <rect key="frame" x="254" y="35" width="31" height="31"/>
                                     </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="progress_bar_only" translatesAutoresizingMaskIntoConstraints="NO" id="Agd-CC-FqG">
+                                        <rect key="frame" x="61" y="47" width="85" height="14"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="14" id="TsH-tw-uFq"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="crown" translatesAutoresizingMaskIntoConstraints="NO" id="ge6-WO-nxW">
+                                        <rect key="frame" x="61" y="36" width="10" height="7"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Champion" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gSs-yZ-BjL">
+                                        <rect key="frame" x="73" y="32" width="49" height="16"/>
+                                        <fontDescription key="fontDescription" name="BrandonText-Light" family="Brandon Text" pointSize="11"/>
+                                        <color key="textColor" red="0.8666666666666667" green="0.76862745098039209" blue="0.2196078431372549" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" red="0.043137254901960784" green="0.1764705882352941" blue="0.24705882352941178" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
+                                    <constraint firstItem="Kxc-fG-9oE" firstAttribute="trailing" secondItem="Y5w-MB-pmw" secondAttribute="trailing" multiplier="0.95" id="3aN-sV-f5m"/>
+                                    <constraint firstItem="Agd-CC-FqG" firstAttribute="leading" secondItem="Seg-gL-pTu" secondAttribute="trailing" constant="6.5" id="8NZ-VQ-5fS"/>
+                                    <constraint firstItem="Agd-CC-FqG" firstAttribute="top" secondItem="gSs-yZ-BjL" secondAttribute="bottom" constant="-1" id="8W1-yA-k49"/>
                                     <constraint firstItem="9lQ-TK-21d" firstAttribute="leading" secondItem="wYn-z9-ECV" secondAttribute="trailing" constant="6" id="96a-vp-FWS"/>
                                     <constraint firstItem="wYn-z9-ECV" firstAttribute="top" secondItem="Y5w-MB-pmw" secondAttribute="top" constant="35" id="BVT-S5-uOA"/>
-                                    <constraint firstItem="V7D-d3-J9s" firstAttribute="leading" secondItem="EO0-y2-7eb" secondAttribute="trailing" constant="6" id="F97-qM-Spx"/>
+                                    <constraint firstItem="V7D-d3-J9s" firstAttribute="leading" secondItem="Agd-CC-FqG" secondAttribute="trailing" constant="8" id="Bj2-qT-qPD"/>
+                                    <constraint firstItem="Agd-CC-FqG" firstAttribute="top" secondItem="Y5w-MB-pmw" secondAttribute="top" constant="47" id="DTX-nL-hkP"/>
                                     <constraint firstItem="V7D-d3-J9s" firstAttribute="top" secondItem="Y5w-MB-pmw" secondAttribute="top" constant="24" id="GL7-hI-r1d"/>
                                     <constraint firstItem="9lQ-TK-21d" firstAttribute="top" secondItem="Y5w-MB-pmw" secondAttribute="top" constant="30" id="HtS-Zq-y6r"/>
-                                    <constraint firstItem="wYn-z9-ECV" firstAttribute="leading" secondItem="V7D-d3-J9s" secondAttribute="trailing" constant="28" id="IrB-bv-s9B"/>
                                     <constraint firstItem="pL9-9V-0xc" firstAttribute="top" secondItem="Seg-gL-pTu" secondAttribute="bottom" constant="-10" id="Osm-Ux-ghP"/>
+                                    <constraint firstItem="ge6-WO-nxW" firstAttribute="leading" secondItem="Agd-CC-FqG" secondAttribute="leading" id="SLh-Tg-I6v"/>
                                     <constraint firstItem="Seg-gL-pTu" firstAttribute="leading" secondItem="Y5w-MB-pmw" secondAttribute="leading" constant="8" id="SoW-1m-ou8"/>
                                     <constraint firstAttribute="height" constant="81" id="U3w-uh-iEm"/>
                                     <constraint firstItem="V7D-d3-J9s" firstAttribute="centerX" secondItem="Y5w-MB-pmw" secondAttribute="centerX" id="X8M-6f-aP5"/>
-                                    <constraint firstItem="EO0-y2-7eb" firstAttribute="top" secondItem="Y5w-MB-pmw" secondAttribute="top" constant="35" id="Ya7-UH-261"/>
+                                    <constraint firstItem="Agd-CC-FqG" firstAttribute="top" secondItem="ge6-WO-nxW" secondAttribute="bottom" constant="4" id="ZjR-yN-hlf"/>
+                                    <constraint firstItem="gSs-yZ-BjL" firstAttribute="leading" secondItem="ge6-WO-nxW" secondAttribute="trailing" constant="2" id="dFN-yh-1Le"/>
                                     <constraint firstItem="Kxc-fG-9oE" firstAttribute="leading" secondItem="9lQ-TK-21d" secondAttribute="leading" constant="5" id="gtq-8o-lgQ"/>
                                     <constraint firstItem="Seg-gL-pTu" firstAttribute="top" secondItem="Y5w-MB-pmw" secondAttribute="top" constant="30" id="ko8-8Y-EqA"/>
                                     <constraint firstItem="pL9-9V-0xc" firstAttribute="leading" secondItem="Seg-gL-pTu" secondAttribute="leading" constant="5" id="m0y-uz-Pvd"/>
@@ -108,7 +125,7 @@
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Accept" lineBreakMode="characterWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ady-92-YoU">
-                                <rect key="frame" x="165.5" y="185" width="45" height="21"/>
+                                <rect key="frame" x="165.5" y="185" width="45" height="20.5"/>
                                 <fontDescription key="fontDescription" name="BrandonText-Regular" family="Brandon Text" pointSize="14.5"/>
                                 <color key="textColor" red="0.2196078431372549" green="0.64313725490196072" blue="0.8666666666666667" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -246,7 +263,7 @@
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="Email Icon" translatesAutoresizingMaskIntoConstraints="NO" id="jrb-gO-EZl">
                                         <rect key="frame" x="106" y="278" width="24" height="18"/>
                                     </imageView>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Mobile Number" textAlignment="natural" minimumFontSize="18" background="Email Icon" translatesAutoresizingMaskIntoConstraints="NO" id="aS6-W2-8iK" userLabel="mobile_number" customClass="DesignableTextField" customModule="my_hundy_test" customModuleProvider="target">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Mobile Number" textAlignment="natural" minimumFontSize="18" background="mobile" translatesAutoresizingMaskIntoConstraints="NO" id="aS6-W2-8iK" userLabel="mobile_number" customClass="DesignableTextField" customModule="my_hundy_test" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="308.5" width="351" height="46"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="46" id="sfg-q8-Jvj"/>
@@ -291,6 +308,9 @@
                                         </attributedString>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="mobile" translatesAutoresizingMaskIntoConstraints="NO" id="ab3-HK-LA4">
+                                        <rect key="frame" x="109" y="322" width="18" height="18"/>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -314,10 +334,12 @@
                                     <constraint firstItem="PxB-SH-xJc" firstAttribute="width" secondItem="COW-DE-0np" secondAttribute="width" id="UwX-xV-stc"/>
                                     <constraint firstItem="aS6-W2-8iK" firstAttribute="leading" secondItem="hYq-tj-f9F" secondAttribute="leading" id="YgW-hf-wbj"/>
                                     <constraint firstItem="Paw-mi-6uP" firstAttribute="centerY" secondItem="qXZ-BH-zbL" secondAttribute="centerY" id="ZzD-3v-kG1"/>
+                                    <constraint firstItem="ab3-HK-LA4" firstAttribute="centerY" secondItem="aS6-W2-8iK" secondAttribute="centerY" id="aEX-Co-8q9"/>
                                     <constraint firstItem="p7e-lr-Cwr" firstAttribute="leading" secondItem="hYq-tj-f9F" secondAttribute="leading" id="ai5-ef-7hN"/>
                                     <constraint firstItem="qXZ-BH-zbL" firstAttribute="centerX" secondItem="hYq-tj-f9F" secondAttribute="centerX" id="bq9-pg-M33"/>
                                     <constraint firstItem="VZf-8n-Eft" firstAttribute="leading" secondItem="Paw-mi-6uP" secondAttribute="leading" id="gaW-sh-2DA"/>
                                     <constraint firstItem="Ymq-NG-MWa" firstAttribute="centerY" secondItem="aS6-W2-8iK" secondAttribute="centerY" id="hnS-oR-Oxv"/>
+                                    <constraint firstItem="ab3-HK-LA4" firstAttribute="centerX" secondItem="jrb-gO-EZl" secondAttribute="centerX" id="hpU-nR-lHf"/>
                                     <constraint firstItem="6dc-LM-Z1f" firstAttribute="centerY" secondItem="p7e-lr-Cwr" secondAttribute="centerY" id="jV9-K6-76d"/>
                                     <constraint firstItem="PxB-SH-xJc" firstAttribute="top" secondItem="aS6-W2-8iK" secondAttribute="bottom" constant="20" id="m6c-Ou-fGM"/>
                                     <constraint firstItem="PxB-SH-xJc" firstAttribute="centerX" secondItem="hYq-tj-f9F" secondAttribute="centerX" id="mf0-mU-auo"/>
@@ -342,13 +364,13 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Terms" lineBreakMode="characterWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lkh-Cu-w7A">
-                                <rect key="frame" x="169" y="199" width="37.5" height="21"/>
+                                <rect key="frame" x="169" y="198.5" width="37.5" height="20.5"/>
                                 <fontDescription key="fontDescription" name="BrandonText-Regular" family="Brandon Text" pointSize="14.5"/>
                                 <color key="textColor" red="0.21960784310000001" green="0.64313725489999995" blue="0.86666666670000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pj3-2W-kth" userLabel="bar">
-                                <rect key="frame" x="22" y="164" width="330" height="3"/>
+                                <rect key="frame" x="22" y="163" width="330" height="3"/>
                                 <color key="backgroundColor" red="0.2196078431372549" green="0.64313725490196072" blue="0.8666666666666667" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="3" id="mak-wg-vCu"/>
@@ -358,7 +380,7 @@
                                 <rect key="frame" x="163" y="137" width="50" height="50"/>
                             </imageView>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="wizard_5step_step01b_inactive_complete" translatesAutoresizingMaskIntoConstraints="NO" id="bd0-gr-HgK">
-                                <rect key="frame" x="22" y="149" width="34" height="34"/>
+                                <rect key="frame" x="22" y="148" width="34" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="bd0-gr-HgK" secondAttribute="height" multiplier="1:1" id="3oH-iq-lLL"/>
                                     <constraint firstAttribute="width" constant="34" id="B22-1R-Lf8"/>
@@ -366,70 +388,70 @@
                                 </constraints>
                             </imageView>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="wizard_5step_step02b_inactive_complete" translatesAutoresizingMaskIntoConstraints="NO" id="sM2-nJ-R7m">
-                                <rect key="frame" x="97" y="149" width="34" height="34"/>
+                                <rect key="frame" x="97" y="148" width="34" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34" id="7wy-a3-Ojh"/>
                                     <constraint firstAttribute="width" constant="34" id="LM2-91-q9I"/>
                                 </constraints>
                             </imageView>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="wizard_5step_step04a_inactive_incomplete" translatesAutoresizingMaskIntoConstraints="NO" id="txP-XT-uUz">
-                                <rect key="frame" x="245" y="149" width="34" height="34"/>
+                                <rect key="frame" x="245" y="148" width="34" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="34" id="QEz-YT-WSn"/>
                                     <constraint firstAttribute="height" constant="34" id="sDO-vf-hui"/>
                                 </constraints>
                             </imageView>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="wizard_5step_step05a_inactive_incomplete" translatesAutoresizingMaskIntoConstraints="NO" id="1Ns-oA-5QW">
-                                <rect key="frame" x="320" y="149" width="34" height="34"/>
+                                <rect key="frame" x="320" y="148" width="34" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="34" id="3YH-PY-SJf"/>
                                     <constraint firstAttribute="height" constant="34" id="Oez-WR-8h2"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create" lineBreakMode="characterWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZeH-S1-9cb">
-                                <rect key="frame" x="17" y="185" width="44" height="21"/>
+                                <rect key="frame" x="17.5" y="185" width="43" height="20.5"/>
                                 <fontDescription key="fontDescription" name="BrandonText-Regular" family="Brandon Text" pointSize="14.5"/>
                                 <color key="textColor" red="0.21960784310000001" green="0.64313725489999995" blue="0.86666666670000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Account" lineBreakMode="characterWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XLy-Lm-HQL">
-                                <rect key="frame" x="12.5" y="199" width="53" height="21"/>
+                                <rect key="frame" x="12.5" y="198.5" width="53" height="20.5"/>
                                 <fontDescription key="fontDescription" name="BrandonText-Regular" family="Brandon Text" pointSize="14.5"/>
                                 <color key="textColor" red="0.21960784310000001" green="0.64313725489999995" blue="0.86666666670000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Verify" lineBreakMode="characterWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="59y-4P-379">
-                                <rect key="frame" x="95" y="185" width="38" height="21"/>
+                                <rect key="frame" x="95" y="185" width="38" height="20.5"/>
                                 <fontDescription key="fontDescription" name="BrandonText-Regular" family="Brandon Text" pointSize="14.5"/>
                                 <color key="textColor" red="0.21960784310000001" green="0.64313725489999995" blue="0.86666666670000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mobile" lineBreakMode="characterWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mlh-ZP-15L">
-                                <rect key="frame" x="92.5" y="199" width="43" height="21"/>
+                                <rect key="frame" x="92.5" y="198.5" width="43" height="20.5"/>
                                 <fontDescription key="fontDescription" name="BrandonText-Regular" family="Brandon Text" pointSize="14.5"/>
                                 <color key="textColor" red="0.21960784310000001" green="0.64313725489999995" blue="0.86666666670000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Link" lineBreakMode="characterWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sIB-pW-DoO">
-                                <rect key="frame" x="249" y="185" width="26" height="21"/>
+                                <rect key="frame" x="249.5" y="185" width="25.5" height="20.5"/>
                                 <fontDescription key="fontDescription" name="BrandonText-Regular" family="Brandon Text" pointSize="14.5"/>
                                 <color key="textColor" red="0.21960784310000001" green="0.64313725489999995" blue="0.86666666670000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bank" lineBreakMode="characterWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rqk-86-Lpe">
-                                <rect key="frame" x="246.5" y="199" width="31" height="21"/>
+                                <rect key="frame" x="247" y="198.5" width="31" height="20.5"/>
                                 <fontDescription key="fontDescription" name="BrandonText-Regular" family="Brandon Text" pointSize="14.5"/>
                                 <color key="textColor" red="0.21960784310000001" green="0.64313725489999995" blue="0.86666666670000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Approved" lineBreakMode="characterWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8mR-vt-Tvb">
-                                <rect key="frame" x="306" y="199" width="62" height="21"/>
+                                <rect key="frame" x="306.5" y="198.5" width="61.5" height="20.5"/>
                                 <fontDescription key="fontDescription" name="BrandonText-Regular" family="Brandon Text" pointSize="14.5"/>
                                 <color key="textColor" red="0.21960784310000001" green="0.64313725489999995" blue="0.86666666670000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Get" lineBreakMode="characterWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oZf-b1-etm">
-                                <rect key="frame" x="325" y="185" width="24" height="21"/>
+                                <rect key="frame" x="325" y="185" width="24" height="20.5"/>
                                 <fontDescription key="fontDescription" name="BrandonText-Regular" family="Brandon Text" pointSize="14.5"/>
                                 <color key="textColor" red="0.21960784310000001" green="0.64313725489999995" blue="0.86666666670000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -461,7 +483,7 @@
                             <constraint firstItem="Pj3-2W-kth" firstAttribute="centerY" secondItem="sM2-nJ-R7m" secondAttribute="centerY" id="WQy-LK-wBO"/>
                             <constraint firstItem="XLy-Lm-HQL" firstAttribute="top" secondItem="ZeH-S1-9cb" secondAttribute="bottom" constant="-7" id="XTv-tk-r2n"/>
                             <constraint firstItem="rqk-86-Lpe" firstAttribute="centerX" secondItem="sIB-pW-DoO" secondAttribute="centerX" id="Zxy-45-cBe"/>
-                            <constraint firstItem="bd0-gr-HgK" firstAttribute="top" secondItem="cTf-BS-FQb" secondAttribute="bottom" constant="25" id="aq2-IQ-zrE"/>
+                            <constraint firstItem="bd0-gr-HgK" firstAttribute="top" secondItem="cTf-BS-FQb" secondAttribute="bottom" constant="24" id="aq2-IQ-zrE"/>
                             <constraint firstItem="7iQ-LF-WyL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bJS-lZ-kRf"/>
                             <constraint firstItem="txP-XT-uUz" firstAttribute="centerY" secondItem="sM2-nJ-R7m" secondAttribute="centerY" id="c1U-BQ-eBU"/>
                             <constraint firstItem="sIB-pW-DoO" firstAttribute="centerX" secondItem="txP-XT-uUz" secondAttribute="centerX" id="ccc-Or-s4f"/>
@@ -561,9 +583,11 @@
         <image name="01_onboarding_test_screen01.png" width="750" height="1540"/>
         <image name="Email Icon" width="24" height="18"/>
         <image name="coin" width="31" height="31"/>
+        <image name="crown" width="10" height="7"/>
+        <image name="mobile" width="18" height="18"/>
         <image name="onboarding_icon_01.png" width="100" height="52"/>
         <image name="profile" width="21" height="18"/>
-        <image name="progress_bar" width="82" height="26"/>
+        <image name="progress_bar_only" width="82" height="14"/>
         <image name="user_pic" width="68" height="66"/>
         <image name="wizard_5step_step01b_inactive_complete" width="50" height="50"/>
         <image name="wizard_5step_step02b_inactive_complete" width="50" height="50"/>
