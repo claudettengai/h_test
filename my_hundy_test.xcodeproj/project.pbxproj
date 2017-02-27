@@ -13,11 +13,6 @@
 		306F5FA81E53AAC000B880A1 /* my_hundy_test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 306F5FA61E53AAC000B880A1 /* my_hundy_test.xcdatamodeld */; };
 		306F5FAA1E53AAC000B880A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 306F5FA91E53AAC000B880A1 /* Assets.xcassets */; };
 		306F5FAD1E53AAC000B880A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 306F5FAB1E53AAC000B880A1 /* LaunchScreen.storyboard */; };
-		306F5FB91E53B2B900B880A1 /* HVD Fonts - BrandonText-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 306F5FB41E53B2B900B880A1 /* HVD Fonts - BrandonText-Medium.otf */; };
-		306F5FBA1E53B2B900B880A1 /* HVD Fonts - BrandonText-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 306F5FB51E53B2B900B880A1 /* HVD Fonts - BrandonText-Bold.otf */; };
-		306F5FBB1E53B2B900B880A1 /* HVD Fonts - BrandonText-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 306F5FB61E53B2B900B880A1 /* HVD Fonts - BrandonText-Light.otf */; };
-		306F5FBC1E53B2B900B880A1 /* HVD Fonts - BrandonText-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 306F5FB71E53B2B900B880A1 /* HVD Fonts - BrandonText-LightItalic.otf */; };
-		306F5FBD1E53B2B900B880A1 /* HVD Fonts - BrandonText-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 306F5FB81E53B2B900B880A1 /* HVD Fonts - BrandonText-Regular.otf */; };
 		30A3D5231E64DC0A00A5B125 /* AsyncButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A3D5051E64DC0A00A5B125 /* AsyncButton.swift */; };
 		30A3D5241E64DC0A00A5B125 /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A3D5061E64DC0A00A5B125 /* AsyncImageView.swift */; };
 		30A3D5251E64DC0A00A5B125 /* AutoTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A3D5071E64DC0A00A5B125 /* AutoTextView.swift */; };
@@ -47,6 +42,11 @@
 		30A3D53D1E64DC0A00A5B125 /* TransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A3D5201E64DC0A00A5B125 /* TransitionManager.swift */; };
 		30A3D53E1E64DC0A00A5B125 /* TransitionZoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A3D5211E64DC0A00A5B125 /* TransitionZoom.swift */; };
 		30A3D53F1E64DC0A00A5B125 /* UnwindSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A3D5221E64DC0A00A5B125 /* UnwindSegue.swift */; };
+		30A3D5461E64DE3F00A5B125 /* HVD Fonts - BrandonText-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 30A3D5411E64DE3F00A5B125 /* HVD Fonts - BrandonText-Bold.otf */; };
+		30A3D5471E64DE3F00A5B125 /* HVD Fonts - BrandonText-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 30A3D5421E64DE3F00A5B125 /* HVD Fonts - BrandonText-Light.otf */; };
+		30A3D5481E64DE3F00A5B125 /* HVD Fonts - BrandonText-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 30A3D5431E64DE3F00A5B125 /* HVD Fonts - BrandonText-LightItalic.otf */; };
+		30A3D5491E64DE3F00A5B125 /* HVD Fonts - BrandonText-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 30A3D5441E64DE3F00A5B125 /* HVD Fonts - BrandonText-Medium.otf */; };
+		30A3D54A1E64DE3F00A5B125 /* HVD Fonts - BrandonText-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 30A3D5451E64DE3F00A5B125 /* HVD Fonts - BrandonText-Regular.otf */; };
 		30A784851E53BA9300DDA6BE /* 01_onboarding_test_screen01.png in Resources */ = {isa = PBXBuildFile; fileRef = 30A784841E53BA9300DDA6BE /* 01_onboarding_test_screen01.png */; };
 		30A784881E53BD5900DDA6BE /* onboarding_icon_01@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30A784871E53BD5900DDA6BE /* onboarding_icon_01@2x.png */; };
 /* End PBXBuildFile section */
@@ -60,11 +60,6 @@
 		306F5FA91E53AAC000B880A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		306F5FAC1E53AAC000B880A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		306F5FAE1E53AAC000B880A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		306F5FB41E53B2B900B880A1 /* HVD Fonts - BrandonText-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "HVD Fonts - BrandonText-Medium.otf"; path = "../Rahul/hundyios_new/hundy/HVD Fonts - BrandonText-Medium.otf"; sourceTree = "<group>"; };
-		306F5FB51E53B2B900B880A1 /* HVD Fonts - BrandonText-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "HVD Fonts - BrandonText-Bold.otf"; path = "../Rahul/hundyios_new/hundy/HVD Fonts - BrandonText-Bold.otf"; sourceTree = "<group>"; };
-		306F5FB61E53B2B900B880A1 /* HVD Fonts - BrandonText-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "HVD Fonts - BrandonText-Light.otf"; path = "../Rahul/hundyios_new/hundy/HVD Fonts - BrandonText-Light.otf"; sourceTree = "<group>"; };
-		306F5FB71E53B2B900B880A1 /* HVD Fonts - BrandonText-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "HVD Fonts - BrandonText-LightItalic.otf"; path = "../Rahul/hundyios_new/hundy/HVD Fonts - BrandonText-LightItalic.otf"; sourceTree = "<group>"; };
-		306F5FB81E53B2B900B880A1 /* HVD Fonts - BrandonText-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "HVD Fonts - BrandonText-Regular.otf"; path = "../Rahul/hundyios_new/hundy/HVD Fonts - BrandonText-Regular.otf"; sourceTree = "<group>"; };
 		30A3D5051E64DC0A00A5B125 /* AsyncButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncButton.swift; sourceTree = "<group>"; };
 		30A3D5061E64DC0A00A5B125 /* AsyncImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
 		30A3D5071E64DC0A00A5B125 /* AutoTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoTextView.swift; sourceTree = "<group>"; };
@@ -95,6 +90,11 @@
 		30A3D5201E64DC0A00A5B125 /* TransitionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionManager.swift; sourceTree = "<group>"; };
 		30A3D5211E64DC0A00A5B125 /* TransitionZoom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionZoom.swift; sourceTree = "<group>"; };
 		30A3D5221E64DC0A00A5B125 /* UnwindSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnwindSegue.swift; sourceTree = "<group>"; };
+		30A3D5411E64DE3F00A5B125 /* HVD Fonts - BrandonText-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HVD Fonts - BrandonText-Bold.otf"; sourceTree = "<group>"; };
+		30A3D5421E64DE3F00A5B125 /* HVD Fonts - BrandonText-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HVD Fonts - BrandonText-Light.otf"; sourceTree = "<group>"; };
+		30A3D5431E64DE3F00A5B125 /* HVD Fonts - BrandonText-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HVD Fonts - BrandonText-LightItalic.otf"; sourceTree = "<group>"; };
+		30A3D5441E64DE3F00A5B125 /* HVD Fonts - BrandonText-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HVD Fonts - BrandonText-Medium.otf"; sourceTree = "<group>"; };
+		30A3D5451E64DE3F00A5B125 /* HVD Fonts - BrandonText-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HVD Fonts - BrandonText-Regular.otf"; sourceTree = "<group>"; };
 		30A784841E53BA9300DDA6BE /* 01_onboarding_test_screen01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 01_onboarding_test_screen01.png; path = my_hundy_test/images/01_onboarding_test_screen01.png; sourceTree = "<group>"; };
 		30A784871E53BD5900DDA6BE /* onboarding_icon_01@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "onboarding_icon_01@2x.png"; path = "../../Hundy/03_Onboarding/icon styles/2017_0202_large_onboarding_icons/onboarding_icon_01@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -116,9 +116,9 @@
 				306F5FA31E53AAC000B880A1 /* Main.storyboard */,
 				30A784891E53BD7C00DDA6BE /* icons */,
 				30A784861E53BA9A00DDA6BE /* images */,
-				30A784831E53B9A700DDA6BE /* Fonts */,
 				306F5F9E1E53AAC000B880A1 /* my_hundy_test */,
 				306F5F9D1E53AAC000B880A1 /* Products */,
+				30A3D5401E64DE3F00A5B125 /* fonts */,
 			);
 			sourceTree = "<group>";
 		};
@@ -181,16 +181,17 @@
 			path = Spring;
 			sourceTree = "<group>";
 		};
-		30A784831E53B9A700DDA6BE /* Fonts */ = {
+		30A3D5401E64DE3F00A5B125 /* fonts */ = {
 			isa = PBXGroup;
 			children = (
-				306F5FB41E53B2B900B880A1 /* HVD Fonts - BrandonText-Medium.otf */,
-				306F5FB51E53B2B900B880A1 /* HVD Fonts - BrandonText-Bold.otf */,
-				306F5FB61E53B2B900B880A1 /* HVD Fonts - BrandonText-Light.otf */,
-				306F5FB71E53B2B900B880A1 /* HVD Fonts - BrandonText-LightItalic.otf */,
-				306F5FB81E53B2B900B880A1 /* HVD Fonts - BrandonText-Regular.otf */,
+				30A3D5411E64DE3F00A5B125 /* HVD Fonts - BrandonText-Bold.otf */,
+				30A3D5421E64DE3F00A5B125 /* HVD Fonts - BrandonText-Light.otf */,
+				30A3D5431E64DE3F00A5B125 /* HVD Fonts - BrandonText-LightItalic.otf */,
+				30A3D5441E64DE3F00A5B125 /* HVD Fonts - BrandonText-Medium.otf */,
+				30A3D5451E64DE3F00A5B125 /* HVD Fonts - BrandonText-Regular.otf */,
 			);
-			name = Fonts;
+			name = fonts;
+			path = my_hundy_test/fonts;
 			sourceTree = "<group>";
 		};
 		30A784861E53BA9A00DDA6BE /* images */ = {
@@ -270,17 +271,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				306F5FAD1E53AAC000B880A1 /* LaunchScreen.storyboard in Resources */,
-				306F5FBA1E53B2B900B880A1 /* HVD Fonts - BrandonText-Bold.otf in Resources */,
-				306F5FB91E53B2B900B880A1 /* HVD Fonts - BrandonText-Medium.otf in Resources */,
-				306F5FBD1E53B2B900B880A1 /* HVD Fonts - BrandonText-Regular.otf in Resources */,
 				306F5FAA1E53AAC000B880A1 /* Assets.xcassets in Resources */,
 				306F5FA51E53AAC000B880A1 /* Main.storyboard in Resources */,
+				30A3D54A1E64DE3F00A5B125 /* HVD Fonts - BrandonText-Regular.otf in Resources */,
 				30A784851E53BA9300DDA6BE /* 01_onboarding_test_screen01.png in Resources */,
-				306F5FBB1E53B2B900B880A1 /* HVD Fonts - BrandonText-Light.otf in Resources */,
-				306F5FBC1E53B2B900B880A1 /* HVD Fonts - BrandonText-LightItalic.otf in Resources */,
 				30A784881E53BD5900DDA6BE /* onboarding_icon_01@2x.png in Resources */,
+				30A3D5481E64DE3F00A5B125 /* HVD Fonts - BrandonText-LightItalic.otf in Resources */,
 				30A3D5321E64DC0A00A5B125 /* LoadingView.xib in Resources */,
+				30A3D5461E64DE3F00A5B125 /* HVD Fonts - BrandonText-Bold.otf in Resources */,
 				30A3D52F1E64DC0A00A5B125 /* Info.plist in Resources */,
+				30A3D5471E64DE3F00A5B125 /* HVD Fonts - BrandonText-Light.otf in Resources */,
+				30A3D5491E64DE3F00A5B125 /* HVD Fonts - BrandonText-Medium.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
