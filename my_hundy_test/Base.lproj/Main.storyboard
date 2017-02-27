@@ -133,7 +133,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hYq-tj-f9F" userLabel="Card_Back" customClass="DesignableView" customModule="my_hundy_test" customModuleProvider="target">
                                 <rect key="frame" x="12" y="240" width="351" height="551"/>
                                 <subviews>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="onboarding_icon_01" translatesAutoresizingMaskIntoConstraints="NO" id="qpi-KQ-ChH">
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="title_icon" translatesAutoresizingMaskIntoConstraints="NO" id="qpi-KQ-ChH">
                                         <rect key="frame" x="126" y="16" width="100" height="52"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="100" id="SJu-dj-l7p"/>
@@ -523,12 +523,6 @@
                     <view key="view" contentMode="scaleToFill" id="Jpy-s3-cCQ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="01_onboarding_test_screen01.png" translatesAutoresizingMaskIntoConstraints="NO" id="AhQ-Y3-9fX">
-                                <rect key="frame" x="0.0" y="-51" width="375" height="870"/>
-                                <autoresizingMask key="autoresizingMask" heightSizable="YES"/>
-                            </imageView>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
@@ -580,14 +574,13 @@
         </scene>
     </scenes>
     <resources>
-        <image name="01_onboarding_test_screen01.png" width="750" height="1540"/>
         <image name="Email Icon" width="24" height="18"/>
         <image name="coin" width="31" height="31"/>
         <image name="crown" width="10" height="7"/>
         <image name="mobile" width="18" height="18"/>
-        <image name="onboarding_icon_01" width="100" height="52"/>
         <image name="profile" width="21" height="18"/>
         <image name="progress_bar_only" width="82" height="14"/>
+        <image name="title_icon" width="34" height="52"/>
         <image name="user_pic" width="68" height="66"/>
         <image name="wizard_5step_step01b_inactive_complete" width="50" height="50"/>
         <image name="wizard_5step_step02b_inactive_complete" width="50" height="50"/>
