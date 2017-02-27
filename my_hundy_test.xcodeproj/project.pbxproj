@@ -52,7 +52,6 @@
 		30A3D55D1E64E2BD00A5B125 /* HVD Fonts - BrandonText-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 30A3D5531E64E2BD00A5B125 /* HVD Fonts - BrandonText-Medium.otf */; };
 		30A3D55E1E64E2BD00A5B125 /* HVD Fonts - BrandonText-Regular 2.otf in Resources */ = {isa = PBXBuildFile; fileRef = 30A3D5541E64E2BD00A5B125 /* HVD Fonts - BrandonText-Regular 2.otf */; };
 		30A3D55F1E64E2BD00A5B125 /* HVD Fonts - BrandonText-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 30A3D5551E64E2BD00A5B125 /* HVD Fonts - BrandonText-Regular.otf */; };
-		30A784851E53BA9300DDA6BE /* 01_onboarding_test_screen01.png in Resources */ = {isa = PBXBuildFile; fileRef = 30A784841E53BA9300DDA6BE /* 01_onboarding_test_screen01.png */; };
 		30A784881E53BD5900DDA6BE /* onboarding_icon_01@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30A784871E53BD5900DDA6BE /* onboarding_icon_01@2x.png */; };
 /* End PBXBuildFile section */
 
@@ -105,7 +104,6 @@
 		30A3D5531E64E2BD00A5B125 /* HVD Fonts - BrandonText-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "HVD Fonts - BrandonText-Medium.otf"; path = "fonts/HVD Fonts - BrandonText-Medium.otf"; sourceTree = "<group>"; };
 		30A3D5541E64E2BD00A5B125 /* HVD Fonts - BrandonText-Regular 2.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "HVD Fonts - BrandonText-Regular 2.otf"; path = "fonts/HVD Fonts - BrandonText-Regular 2.otf"; sourceTree = "<group>"; };
 		30A3D5551E64E2BD00A5B125 /* HVD Fonts - BrandonText-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "HVD Fonts - BrandonText-Regular.otf"; path = "fonts/HVD Fonts - BrandonText-Regular.otf"; sourceTree = "<group>"; };
-		30A784841E53BA9300DDA6BE /* 01_onboarding_test_screen01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 01_onboarding_test_screen01.png; path = my_hundy_test/images/01_onboarding_test_screen01.png; sourceTree = "<group>"; };
 		30A784871E53BD5900DDA6BE /* onboarding_icon_01@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "onboarding_icon_01@2x.png"; path = "../../Hundy/03_Onboarding/icon styles/2017_0202_large_onboarding_icons/onboarding_icon_01@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -125,7 +123,6 @@
 			children = (
 				306F5FA31E53AAC000B880A1 /* Main.storyboard */,
 				30A784891E53BD7C00DDA6BE /* icons */,
-				30A784861E53BA9A00DDA6BE /* images */,
 				306F5F9E1E53AAC000B880A1 /* my_hundy_test */,
 				306F5F9D1E53AAC000B880A1 /* Products */,
 			);
@@ -208,14 +205,6 @@
 			name = fonts;
 			sourceTree = "<group>";
 		};
-		30A784861E53BA9A00DDA6BE /* images */ = {
-			isa = PBXGroup;
-			children = (
-				30A784841E53BA9300DDA6BE /* 01_onboarding_test_screen01.png */,
-			);
-			name = images;
-			sourceTree = "<group>";
-		};
 		30A784891E53BD7C00DDA6BE /* icons */ = {
 			isa = PBXGroup;
 			children = (
@@ -293,7 +282,6 @@
 				30A3D55B1E64E2BD00A5B125 /* HVD Fonts - BrandonText-LightItalic.otf in Resources */,
 				306F5FA51E53AAC000B880A1 /* Main.storyboard in Resources */,
 				30A3D5581E64E2BD00A5B125 /* HVD Fonts - BrandonText-Light 2.otf in Resources */,
-				30A784851E53BA9300DDA6BE /* 01_onboarding_test_screen01.png in Resources */,
 				30A3D5571E64E2BD00A5B125 /* HVD Fonts - BrandonText-Bold.otf in Resources */,
 				30A784881E53BD5900DDA6BE /* onboarding_icon_01@2x.png in Resources */,
 				30A3D5321E64DC0A00A5B125 /* LoadingView.xib in Resources */,

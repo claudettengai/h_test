@@ -133,7 +133,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hYq-tj-f9F" userLabel="Card_Back" customClass="DesignableView" customModule="my_hundy_test" customModuleProvider="target">
                                 <rect key="frame" x="12" y="240" width="351" height="551"/>
                                 <subviews>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="onboarding_icon_01.png" translatesAutoresizingMaskIntoConstraints="NO" id="qpi-KQ-ChH">
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="onboarding_icon_01" translatesAutoresizingMaskIntoConstraints="NO" id="qpi-KQ-ChH">
                                         <rect key="frame" x="126" y="16" width="100" height="52"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="100" id="SJu-dj-l7p"/>
@@ -585,7 +585,7 @@
         <image name="coin" width="31" height="31"/>
         <image name="crown" width="10" height="7"/>
         <image name="mobile" width="18" height="18"/>
-        <image name="onboarding_icon_01.png" width="100" height="52"/>
+        <image name="onboarding_icon_01" width="100" height="52"/>
         <image name="profile" width="21" height="18"/>
         <image name="progress_bar_only" width="82" height="14"/>
         <image name="user_pic" width="68" height="66"/>
